@@ -19,7 +19,7 @@ article .main-content p{
 }
 
 .summary{
-	
+	color:#fff;
 }
 
 #videoContainer{
@@ -33,5 +33,20 @@ article .main-content p{
 	width:100%;
 	opactity:.8;
 	position:relative;
+	
+}
+
+article.base{
+	margin-top:0px !important;
+}
+
+
+
+
+/*mobile queries*/
+media @screen and (min-width:800px;){
+	
+	
+	
 	
 }
