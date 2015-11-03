@@ -1,0 +1,37 @@
+/*Background*/
+.content-wrapper{
+	background-color:#323372;
+}
+
+/*hide page header*/
+.page-header{
+	display:none;
+}
+
+/*main content area*/
+#content{
+	margin: 10px 0;
+	background:transparent;
+}
+
+article .main-content p{
+	color:#fff;
+}
+
+.summary{
+	
+}
+
+#videoContainer{
+	width: 100%;
+	position: relative;
+	display: block;
+	max-height: 530px;
+}
+
+#videoContainer video{
+	width:100%;
+	opactity:.8;
+	position:relative;
+	
+}
