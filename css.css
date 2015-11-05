@@ -12,6 +12,7 @@
 #content{
 	margin: 10px 0;
 	background:transparent;
+	border:none;
 }
 
 article .main-content p{
