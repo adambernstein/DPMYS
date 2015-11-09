@@ -32,7 +32,7 @@ article .main-content p{
 
 #videoContainer video{
 	width:100%;
-	opactity:.8;
+	/*opactity:.8;*/
 	position:relative;
 	
 }
@@ -44,10 +44,10 @@ article.base{
 
 
 
-/*mobile queries*/
+/*mobile queries
 media @screen and (min-width:800px;){
 	
 	
 	
 	
-}
+}*/
