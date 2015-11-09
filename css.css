@@ -23,6 +23,8 @@ article .main-content p{
 	color:#fff;
 }
 
+
+
 #videoContainer{
 	width: 100%;
 	position: relative;
@@ -41,8 +43,25 @@ article.base{
 	margin-top:0px !important;
 }
 
+#hashtag{
+	position:absolute;	
+}
 
+h5{
+	color:#E86D1F;
+	font-size:2em;
+	margin-top:-10px;
+}
 
+#join{
+	
+}
+
+#descr{
+	position: relative;
+	left: 345px;
+	max-width: 600px;
+}
 
 /*mobile queries
 media @screen and (min-width:800px;){
