@@ -47,10 +47,22 @@ article.base{
 	position:absolute;	
 }
 
-h5{
-	color:#E86D1F;
-	font-size:2em;
-	margin-top:-10px;
+.hashtag{
+	color: #E86D1F;
+	font-size: 2em;
+	margin-top: -10px;
+	font-weight: 600;
+	line-height: .5em;
+}
+
+#descr{
+	position: relative;
+	left: 345px;
+	max-width: 560px;
+	/*IE. shoot me. */
+	left:360px\0;
+	font-family:sans-serif\0;
+	
 }
 
 #join{
@@ -91,15 +103,17 @@ h5{
 	text-align:center;
 }
 #action-buttons a::after{
-	font-size: 2em;
-    line-height: 1em;
+	font-size: 1.5em;
     content: "\25b8";
-    top: 5px;
+    vertical-align:middle;
     position: relative;
+	bottom:1px;
+    padding: 5px;
     
-
 }
-
+#action-buttons a:hover{
+	opacity:.8;
+}
 #action-buttons a:first-child{
 	background:#008EA0;	
 }
@@ -109,11 +123,7 @@ h5{
 }
 
 
-#descr{
-	position: relative;
-	left: 345px;
-	max-width: 600px;
-}
+
 
 /*mobile queries
 media @screen and (min-width:800px;){
