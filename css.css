@@ -132,7 +132,100 @@ article.base{
 }
 
 
+#cssSlideshow{
+	width:100%;
+	position:relative;
+	height:480px;
+		
+}
+#mask{
+	overflow:hidden;
+}
 
+#cssSlideshow li {
+    position: absolute;
+    left: 0px;
+	list-style-type:none;
+	width: 100%;
+}
+
+#slide1{
+	 -webkit-animation: anim1 15s infinite; /* Chrome, Safari, Opera */
+    animation: anim1 15s infinite;
+}
+#slide2{
+	 -webkit-animation: anim2 15s infinite; /* Chrome, Safari, Opera */
+    animation: anim2 15s infinite;
+}
+
+#slide3{
+	 -webkit-animation: anim3 15s infinite; /* Chrome, Safari, Opera */
+    animation: anim3 15s infinite;
+}
+#slide4{
+	 -webkit-animation: anim4 15s infinite; /* Chrome, Safari, Opera */
+    animation: anim4 15s infinite;
+}
+
+@keyframes anim1{
+	0% {opacity:1;}
+	25% {opacity:0;}
+	50% {opacity:0;}
+	75% {opacity:0;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes anim1{
+	0% {opacity:1;}
+	25% {opacity:0;}
+	50% {opacity:0;}
+	75% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@keyframes anim2{
+	0% {opacity:0;}
+	25% {opacity:1;}
+	50% {opacity:0;}
+	75% {opacity:0;}
+	100% {opacity:0;}
+}
+@-webkit-keyframes anim2{
+	0% {opacity:0;}
+	25% {opacity:1;}
+	50% {opacity:0;}
+	75% {opacity:0;}
+	100% {opacity:0;}
+}
+
+@keyframes anim3{
+	0% {opacity:0;}
+	25% {opacity:0;}
+	50% {opacity:1;}
+	75% {opacity:0;}
+	100% {opacity:0;}
+}
+@-webkit-keyframes anim3{
+	0% {opacity:0;}
+	25% {opacity:0;}
+	50% {opacity:1;}
+	75% {opacity:0;}
+	100% {opacity:0;}
+}
+
+@keyframes anim4{
+	0% {opacity:0;}
+	25% {opacity:0;}
+	50% {opacity:0;}
+	75% {opacity:1;}
+	100% {opacity:0;}
+}
+@-webkit-keyframes anim4{
+	0% {opacity:0;}
+	25% {opacity:0;}
+	50% {opacity:0;}
+	75% {opacity:1;}
+	100% {opacity:0;}
+}
 
 /*mobile queries */
 @media screen and (max-width:1000px){
@@ -146,14 +239,10 @@ article.base{
 	#descr{
 		left:0px;
 	}
-	/*
-	#videoContainer video{
-		display:none;
-	}
 	
-	#videoContainer embed{
-		display:inline;
-	}*/
+	#cssSlideshow{
+		height:360px;
+	}
 	
 	
 	#join{
@@ -177,13 +266,30 @@ article.base{
 	}
 	
 }
+@media screen and (max-width:760px){
+	#cssSlideshow{
+			height:240px;
+		}
+}
 
 @media screen and (max-width:470px){
 	#hashtag{
 		font-size:.7em;
 	}
 	
+	#cssSlideshow{
+			height:220px;
+		}
+	
 	#join-buttons{
 		font-size:.9em;
 	}
+}
+
+@media screen and (max-width:340px){
+		
+	#cssSlideshow{
+			height:150px;
+		}
+
 }
