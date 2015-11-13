@@ -39,6 +39,14 @@ article .main-content p{
 	
 }
 
+#videoContainer embed{
+	width:100%;
+	/*opactity:.8;*/
+	position:relative;
+	display:none;
+	
+}
+
 article.base{
 	margin-top:0px !important;
 }
@@ -113,23 +121,30 @@ article.base{
     
 }
 #action-buttons a:hover{
-	border:1px solid #F6Be00
+	border:1px solid #F6Be00;
 }
 #action-buttons a:first-child{
 	background:#008EA0;	
 }
 
 #action-buttons a:last-child{
-	background:#ED861F;	
+	background:#E86D1F;	
 }
 
 
 
 
-/*mobile queries
-media @screen and (min-width:800px;){
+/*mobile queries */
+@media screen and (max-width:800px;){
+/* */	
+	#videoContainer video{
+		display:none;
+	}
+	
+	#videoContainer embed{
+		display:inline;
+	}
 	
 	
 	
-	
-}*/
+}
