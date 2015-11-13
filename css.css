@@ -135,16 +135,55 @@ article.base{
 
 
 /*mobile queries */
-@media screen and (max-width:800px;){
+@media screen and (max-width:1000px){
 /* */	
+	#hashtag{
+		position:relative;
+		margin: 10px 0;
+		
+	}
+	
+	#descr{
+		left:0px;
+	}
+	/*
 	#videoContainer video{
 		display:none;
 	}
 	
 	#videoContainer embed{
 		display:inline;
+	}*/
+	
+	
+	#join{
+		width: 100%;
+		text-align: center;
 	}
 	
+	#join > * {
+		position: relative;
+		margin: 0 auto;
+		text-align: center;
+	}
 	
+	#join-buttons{
+		line-height:2em;
+		
+	}
 	
+	#action-buttons {
+		display: block;
+	}
+	
+}
+
+@media screen and (max-width:470px){
+	#hashtag{
+		font-size:.7em;
+	}
+	
+	#join-buttons{
+		font-size:.9em;
+	}
 }
