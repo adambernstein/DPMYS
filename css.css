@@ -33,10 +33,20 @@ article.base{
 	max-width:1000px;
 }
 
+.splash-section{
+	height:90vh;
+}
 
 
 
 
+
+#s1{
+	background: -webkit-linear-gradient(left, #482109 0%, #E86d1f 25%, #E86d1f 75%, #482109 100%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #482109 0%, #E86d1f 25%, #E86d1f 75%, #482109 100%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #482109 0%, #E86d1f 25%, #E86d1f 75%, #482109 100%); /* For Fx 3.6 to 15 */
+    background: linear-gradient(to right, #482109 0%, #E86d1f 25%, #E86d1f 75%, #482109 100%); /* Standard syntax (must be last) */
+}
 
 /*mobile queries */
 @media screen and (max-width:1000px){
