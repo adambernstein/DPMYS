@@ -203,7 +203,44 @@ article.base{
 }
 
 
-/*.arrow-blue::after{
+#s4{
+	background:#F8971D;
+	height:250px;
+}
+
+#s4 img{
+	height:100%;
+}
+
+#s4col1 {
+	flex: 2 1 auto;
+	align-self: center;
+	text-align:center;
+}
+#s4t1{
+	color:#fff;
+	font-size:1.5em;
+	font-style:italic;
+}
+
+#s4t2{
+	color:#fff;
+	font-size:1em;
+	font-weight:600;	
+}
+
+#s4col2 {
+    display: inline;
+    flex: 0 0 auto;
+    align-self: auto;
+}
+#s4 img{
+	height: 250px;
+	align-self: flex-end;
+	position: relative;
+	left: 0px;
+}
+	/*.arrow-blue::after{
 	content: "\25B8";
 }*/
 
