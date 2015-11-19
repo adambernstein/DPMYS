@@ -1,5 +1,12 @@
 /**** TEMPLATE OVERRIDES ***/
 
+body{background-color:#fff;}
+
+.content-wrapper .centered {
+    width: 100%;
+    max-width: 100%;
+}
+
 .content-wrapper{
 	background-color:#fff;
 }
@@ -11,7 +18,7 @@
 
 /*main content area*/
 #content{
-	margin: 10px 0;
+	margin:0;
 	background:transparent;
 	border:none;
 }
@@ -25,7 +32,7 @@ article .main-content p{
 }
 
 article.base{
-	margin-top:0px !important;
+	margin-top:-30px !important;
 }
 
 
