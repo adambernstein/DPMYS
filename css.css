@@ -64,8 +64,9 @@ article.base{
 }
 
 .splash-section{
-	height:576px;
+	height: 560px;
 	position: relative;
+	overflow: hidden;
 }
 
 .row {
@@ -108,6 +109,7 @@ article.base{
     font-size: 3.9em;
     font-weight: 700;
 	transition: font-size .2s;
+	line-height: 60px;
 }
 
 #s1p1 {
