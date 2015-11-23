@@ -192,7 +192,7 @@ article.base{
 }
 #s3 .s3-button{
 	position: relative;
-	top: 50px;
+	top: 30px;
 	font-size: 23px;
 	font-weight: 700;
 	padding: 16px 15px;
@@ -206,7 +206,7 @@ article.base{
 	font-size: 1.5em;
 	color: #fff;
 	background: #B77014;
-	right: -44px;
+	right: -41px;
 	right:-42px\0;
 	top: 0;
 	height: 46px;
@@ -356,6 +356,17 @@ article.base{
 
 	}
 
+	#s3{
+		height:550px;
+	}
+	
+	#s3 .s3-button {
+		font-size:1em;
+		padding:11px;
+		transition:all .2s;	
+		bottom: 60px;
+
+	}
 	#arrow-blue {
 		font-size: 16px;
 		right: -38px;
@@ -366,9 +377,14 @@ article.base{
 		
 	}
 	
-	#s3 .s3-button {
-		top: 10px;
-		transition:all .2s;
+	#arrow-orange {		
+		font-size: 16px;
+		right: -35px;
+		height: 15px;
+		padding: 13px !important;
+		transition: all .2s;
+		line-height: 1.5em;
+		
 	}
 }
 
@@ -438,8 +454,13 @@ article.base{
 		padding: 10px 0;
 	}
 	
-	#s3row{
-		
+	.action-light.action-orange {
+		bottom: 15px;
+
+	}
+	
+	#arrow-orange{
+		right:-35px;
 	}
 	
 	#s3 .s3-title{
@@ -524,14 +545,16 @@ article.base{
 	}
 	
 	#s3{
-		height:555px;
+		height:565px;
 	}
 	
 	#s3row {
 		margin: 15px;
 		text-align: left;
 	}
-	
+	#arrow-orange{
+		right:-34px;
+	}
 	#s3 .s3-text {
 		font-size: .8em;
 	}
