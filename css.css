@@ -79,6 +79,10 @@ article.base{
 .col{
 	margin: 0 30px;
 }
+.noshow{
+	display:none;
+	z-index:-1000;
+}
 
 #s1col1{
 	display:inline;
