@@ -15,7 +15,9 @@ body{background-color:#fff;}
 }
 */
 
-
+.media {
+    display: none !important;
+}
 /*hide page header*/
 
 .page-header{
