@@ -130,29 +130,91 @@ article.base{
     color: #333;
 }
 
+/**s2**/
+
 #s2{
 	background-color:#fff;
-	height:480px;
+	height:345px;
 	text-align:center;
 }
 
-#s2 span {
-    position: relative;
-    top: 10px;
+#s2row{
+	display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: space-around;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+	min-height:100%;
 }
 
-#s2t1{
-	font-size:2em;
-	color:#F8971D;
-	font-weight:500;
+#s2col1{
+	-webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 240px;
+    -ms-flex: 0 1 240px;
+    flex: 0 1 240px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
 }
 
+#s2col2{
+	-webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    -webkit-flex: 0 1 240px;
+    -ms-flex: 0 1 240px;
+    flex: 0 1 240px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+	
+}
 
-#s2t2{
-	font-size:2em;
+#s2col3{
+	-webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    -webkit-flex: 0 1 240px;
+    -ms-flex: 0 1 240px;
+    flex: 0 1 240px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.s2h{
+	font-size:1.5em;
 	color:#008EA0;
 	font-weight:600;
+	line-height:.5em;
 }
+
+.s2p{
+	color:#555 !important;
+}
+
+#s2 iframe {
+    display: block;
+    margin: 25px auto !important;
+}
+
+/*end s2*/
+
 
 .action-light.action-blue {
     background-color: #008ea0;
@@ -179,10 +241,7 @@ article.base{
 }
 
 
-#s2 iframe {
-    display: block;
-    margin: 40px auto !important;
-}
+
 
 #s3{
 	background-image: linear-gradient(to right, rgba(240,234,218,1) 0%, rgba(240,234,218,.8) 25%, rgba(240,234,218,.8) 75%, rgba(240,234,218,1) 100%),
