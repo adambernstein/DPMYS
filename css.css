@@ -145,11 +145,11 @@ article.base{
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: space-around;
     justify-content: space-around;
     -webkit-align-content: center;
     -ms-flex-line-pack: center;
@@ -530,18 +530,17 @@ article.base{
 	}
 	
 	#s2{
-		height:470px;
+		max-height:1040px;
+		height:auto;
 	}
 	
 	#s2row{
-		/* text-align:left; */
-		width:80%;
-		margin:0 auto;
+		/*-webkit-flex-direction: column;*/
+		flex-direction: row;
 	}
+	
 	#s2 iframe {
-		position: absolute;
-		width: 100%;
-		left: 0;
+		width:320px;
 	}
 	
 	#s3{
