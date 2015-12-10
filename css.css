@@ -198,14 +198,16 @@ article.base{
 }
 
 .s2h{
-	font-size:1.5em;
+	font-size:1em;
 	color:#008EA0;
 	font-weight:600;
 	line-height:.5em;
+	text-transform:uppercase;
 }
 
 .s2p{
 	color:#555 !important;
+	font-size:13px !important;SAC
 }
 
 #s2 iframe {
