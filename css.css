@@ -108,14 +108,15 @@ article.base{
     background: -o-linear-gradient(left, #b77014 0%, #f8971d 25%, #f8971d 75%, #b77014 100%); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(left, #b77014 0%, #f8971d 25%, #f8971d 75%, #b77014 100%); /* For Fx 3.6 to 15 */
     background: linear-gradient(to right, #b77014 0%, #f8971d 25%, #f8971d 75%, #b77014 100%); /* Standard syntax (must be last) */
+	height:530px;
 }
 
 #s1h1 {
     color: #fff;
-    font-size: 2.6em;
+    font-size: 3.5em;
     font-weight: 700;
 	transition: font-size .2s;
-	line-height: 20px;
+	line-height: 1.1em;
 	margin-top: 80px;
 }
 #s1h2 {
@@ -134,7 +135,7 @@ article.base{
 
 #s2{
 	background-color:#fff;
-	height:345px;
+	height:320px;
 	text-align:center;
 }
 
@@ -203,11 +204,12 @@ article.base{
 	font-weight:600;
 	line-height:.5em;
 	text-transform:uppercase;
+	display:none;
 }
 
 .s2p{
 	color:#555 !important;
-	font-size:13px !important;SAC
+	font-size:13px !important;
 }
 
 #s2 iframe {
@@ -443,7 +445,7 @@ article.base{
 		bottom: 60px;
 
 	}
-
+	
 	#s3{
 		height:550px;
 	}
@@ -543,6 +545,10 @@ article.base{
 	
 	#s2 iframe {
 		width:320px;
+	}
+	
+	.s2p{
+		font-size: 14px !important;
 	}
 	
 	#s3{
@@ -682,6 +688,10 @@ article.base{
 	}
 	#s1h2 {
 		font-size: 1.5em;
+	}
+	
+	.s2p{
+		margin:0 5px !important;
 	}
 
 
