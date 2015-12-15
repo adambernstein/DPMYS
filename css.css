@@ -215,7 +215,7 @@ article.base{
 
 #s2 iframe {
     display: block;
-    margin: 25px auto !important;
+    margin: 25px auto 15px auto !important;
 }
 
 /*end s2*/
