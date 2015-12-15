@@ -135,7 +135,7 @@ article.base{
 
 #s2{
 	background-color:#fff;
-	height:320px;
+	height:auto;
 	text-align:center;
 }
 
@@ -165,9 +165,9 @@ article.base{
 	-webkit-order: 0;
     -ms-flex-order: 0;
     order: 0;
-    -webkit-flex: 0 1 240px;
-    -ms-flex: 0 1 240px;
-    flex: 0 1 240px;
+    -webkit-flex: 0 1 320px;
+    -ms-flex: 0 1 320px;
+    flex: 0 1 320px;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     align-self: auto;
@@ -177,9 +177,9 @@ article.base{
 	-webkit-order: 1;
     -ms-flex-order: 1;
     order: 1;
-    -webkit-flex: 0 1 240px;
-    -ms-flex: 0 1 240px;
-    flex: 0 1 240px;
+    -webkit-flex: 0 1 320px;
+    -ms-flex: 0 1 320px;
+    flex: 0 1 320px;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     align-self: auto;
@@ -190,9 +190,9 @@ article.base{
 	-webkit-order: 2;
     -ms-flex-order: 2;
     order: 2;
-    -webkit-flex: 0 1 240px;
-    -ms-flex: 0 1 240px;
-    flex: 0 1 240px;
+    -webkit-flex: 0 1 320px;
+    -ms-flex: 0 1 320px;
+    flex: 0 1 320px;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     align-self: auto;
@@ -210,6 +210,7 @@ article.base{
 .s2p{
 	color:#555 !important;
 	font-size:13px !important;
+	margin:10px !important;
 }
 
 #s2 iframe {
@@ -415,7 +416,6 @@ article.base{
 		font-size: 1.7em;
 		font-weight: 700;
 		transition: font-size .2s;
-		line-height: 10px;
 		margin-top: 80px;
 	}
 	
@@ -535,7 +535,7 @@ article.base{
 	
 	#s2{
 		max-height:1040px;
-		height:auto;
+		
 	}
 	
 	#s2row{
@@ -544,12 +544,15 @@ article.base{
 	}
 	
 	#s2 iframe {
-		width:320px;
+		max-width:320px;
 	}
 	
+		
 	.s2p{
-		font-size: 14px !important;
+		/*font-size: 14px !important;*/
+		margin:0 5px !important;
 	}
+	
 	
 	#s3{
 		height:460px;
@@ -690,9 +693,6 @@ article.base{
 		font-size: 1.5em;
 	}
 	
-	.s2p{
-		margin:0 5px !important;
-	}
-
+	
 
 }
