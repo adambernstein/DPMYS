@@ -227,7 +227,8 @@ article.base{
     font-weight: 700;
     padding: 16px 15px;
     position: absolute;
-    bottom: 80px;
+    /* bottom: 80px; adjusted for June 30 match*/
+	bottom:50px;
     transition: all .2s;
 	border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -442,7 +443,7 @@ article.base{
 		font-size:1em;
 		padding:10px;
 		transition:all .2s;	
-		bottom: 60px;
+		bottom: 40px;
 
 	}
 	
@@ -660,7 +661,7 @@ article.base{
 	}
 	
 	#s3{
-		height:500px;
+		height:520px;
 	}
 	
 	#s3row {
